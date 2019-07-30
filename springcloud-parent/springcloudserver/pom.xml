@@ -5,13 +5,12 @@
     <artifactId>springcloud-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>springcloudclient</artifactId>
+  <artifactId>springcloudserver</artifactId>
   <dependencies>
 	<dependency>
 		<groupId>org.springframework.cloud</groupId>
-		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		<version>2.0.0.RELEASE</version>
 	</dependency>
-	
 </dependencies>
 </project>

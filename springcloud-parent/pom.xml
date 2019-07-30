@@ -26,8 +26,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+       <!--  <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator</artifactId>
+            
+           </dependency>
+        --> 
     </dependencies>
- 
+        
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -49,7 +55,7 @@
         </plugins>
     </build>
 	<modules>
-		<module>eureka</module>
+		<module>springcloudserver</module>
 		<module>springcloudclient</module>
 	</modules>
 
